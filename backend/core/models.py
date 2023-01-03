@@ -6,8 +6,13 @@ from django_extensions.db.models import (
 	TitleDescriptionModel
 )
 
+<<<<<<< HEAD
 class Contact(
 	TimeStampedModel, 
+=======
+class Locations(
+	TimeStampedModel,
+>>>>>>> 839b109450c436fd4bf894c62ca409bd4089be3d
 	ActivatorModel,
 	TitleDescriptionModel,
 	Model
