@@ -3,5 +3,5 @@ from .models import Locations
 
 
 @admin.register(Locations)
-class ContactAdmin(admin.ModelAdmin):
+class LocationsAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'description', 'place', 'place', 'email')
