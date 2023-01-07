@@ -15,6 +15,8 @@ class LocationsTestCase(APITestCase):
         self.data = {
             "name": "Haoran Xu",
             "message": "Exley Science Center",
+            "latitude": "test",
+            "longitude": "test",
             "email": "haoranxu@test.com"
         }
         self.url = "/contact/"
