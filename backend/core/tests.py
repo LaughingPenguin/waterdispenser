@@ -1,4 +1,4 @@
-from . models import Contact, Locations
+from . models import Locations
 from rest_framework.test import APIClient
 from rest_framework.test import APITestCase
 from rest_framework import status
