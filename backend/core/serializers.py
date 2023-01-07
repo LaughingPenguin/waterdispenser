@@ -9,8 +9,8 @@ class LocationsSerializer(serializers.ModelSerializer):
     name = CharField(source="title", required=True)
     email = EmailField(required=True)
     message = CharField(source="description", required=True)
-    longitude = CharField(source="place",required=True)
-    latitude = CharField(source="place",required=True)
+    longitude = CharField(source="description",required=True)
+    latitude = CharField(source="description",required=True)
     
     class Meta:
         model = models.Locations
