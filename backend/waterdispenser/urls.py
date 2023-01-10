@@ -10,6 +10,6 @@ urlpatterns = router.urls
 
 urlpatterns += [
     path('admin/', admin.site.urls),
-    path('contact/', core_views.ContactAPIView.as_view()),
+    path('contact/', core_views.LocationsAPIView.as_view()),
     path('api-token-auth/', obtain_auth_token),
 ]
